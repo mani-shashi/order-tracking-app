@@ -11,9 +11,12 @@ import { OrderStatusPipe } from '../pipes/order-status.pipe';
 export class OrdersComponent {
 
   orders = [
-    { id: 1, price: 1200, date: new Date(), status: 'P' },
-    { id: 2, price: 800, date: new Date(), status: 'S' },
-    { id: 3, price: 1500, date: new Date(), status: 'D' }
+    { id: 1, price: 185, date: new Date(), status: 'P' },
+    { id: 2, price: 94585, date: new Date(), status: 'S' },
+    { id: 3, price: 4352, date: new Date(), status: 'D' },
+    { id: 4, price: 4564, date: new Date(), status: 'P' },
+    { id: 5, price: 455, date: new Date(), status: 'S' },
+    { id: 6, price: 675, date: new Date(), status: 'D' }
   ];
 
 }
